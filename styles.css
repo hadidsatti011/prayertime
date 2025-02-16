@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f8f9fa;
+    color: #000;
+}
+
+.container {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.dark-mode {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.dark-mode .container {
+    background: #333;
+    color: #fff;
+}

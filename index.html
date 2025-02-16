@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Prayer Times</h1>
+        <p>Updated Daily</p>
+        <button id="dark-mode-toggle">🌙 Toggle Dark Mode</button>
+        <div id="prayer-times">
+            <p>Loading prayer times...</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
